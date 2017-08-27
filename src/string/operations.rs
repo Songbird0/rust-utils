@@ -4,7 +4,7 @@ use ::string::errors;
 
 /// Wraps a sequence with a couple of tags.
 /// ## Errors
-/// Returns `Err()` if the `delimiter` supplied was not found, `Ok()` otherwise.
+/// Returns `Err()` if the supplied `delimiter` was not found, `Ok()` otherwise.
 /// ## Panics
 /// Panics if the `sentence` length isn't equal or greater than 2.
 /// ## Examples
